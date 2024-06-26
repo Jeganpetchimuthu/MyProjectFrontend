@@ -1,0 +1,171 @@
+.User-sign-container {
+  position: relative;
+  width: 500px;
+  height: 610px;
+  border: 1px solid gray;
+  left: 640px;
+  top: 50px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+.siginup-Image {
+  position: relative;
+  background: none;
+  height: 90px;
+  width: 400px;
+  left: 50px;
+  background-color: rgb(209, 204, 204);
+}
+.UserIcons {
+  position: relative;
+  top: 55px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+}
+.Signins {
+  position: relative;
+  color: white;
+  font-weight: 400;
+  width: 90px;
+  top: 1px;
+  left: 70px;
+}
+.signin-Header {
+  width: 500px;
+  background-color: rgb(209, 204, 204);
+}
+.signinline {
+  position: relative;
+  border: 1px solid rgb(229, 229, 229);
+  width: 380px;
+  left: 50px;
+}
+.signinline2 {
+  position: relative;
+  border: 1px solid rgb(229, 229, 229);
+  width: 380px;
+  left: 50px;
+  top: 50px;
+}
+.signin-Email {
+  position: relative;
+  width: 380px;
+  height: 40px;
+  left: 30px;
+  top: 30px;
+  border: 1px solid rgb(193, 188, 188);
+  background-color: gray;
+  font-weight: 700px;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+.signin-Email::placeholder {
+  color: rgb(228, 220, 220);
+}
+
+.signin-Email:hover {
+  border: 1px solid rgb(243, 94, 39);
+}
+.signin-Password {
+  position: relative;
+  width: 380px;
+  height: 40px;
+  left: 30px;
+  top: 10px;
+  border: 1px solid rgb(207, 201, 201);
+  background-color: gray;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+.signin-Password::placeholder {
+  color: rgb(228, 220, 220);
+}
+.signin-Password:hover {
+  border: 1px solid rgb(243, 94, 39);
+}
+.signinllc {
+  position: relative;
+  top: -50px;
+  left: 90px;
+  color: white;
+  cursor: pointer;
+}
+.forgetPasswords {
+  position: relative;
+  top: -60px;
+  color: white;
+  left: 80px;
+  width: 220px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.signup-btn {
+  position: relative;
+  background-color: rgb(142, 131, 131);
+  top: 40px;
+  left: 279px;
+  width: 190px;
+  height: 60px;
+  border: 1px solid rgb(177, 173, 173);
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+.signup-btn:hover {
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+}
+.signinarrow {
+  position: relative;
+  top: -1px;
+  left: 50px;
+  color: white;
+  font-weight: 700;
+}
+.signinSubtitle {
+  position: relative;
+  color: rgb(184, 172, 172);
+  left: 60px;
+  top: 10px;
+  font-weight: 400;
+  width: 380px;
+}
+.signinSubtitle1 {
+  position: relative;
+  color: rgb(184, 172, 172);
+  left: 60px;
+  top: 29px;
+  font-weight: 400;
+  width: 380px;
+}
+.lockicon {
+  z-index: 1;
+  position: relative;
+  left: 400px;
+  top: 17px;
+  width: 50px;
+  height: 40px;
+}
+.personIcon {
+  z-index: 1;
+  position: relative;
+  left: 400px;
+  top: 35px;
+  width: 50px;
+  height: 40px;
+}
+.keyimg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 305px;
+  top: 39px;
+  z-index: 1;
+}
