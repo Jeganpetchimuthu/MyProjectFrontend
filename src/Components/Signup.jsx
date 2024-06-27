@@ -5,7 +5,7 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import LockIcon from "@mui/icons-material/Lock";
 
 import PersonIcon from "@mui/icons-material/Person";
-
+import Person2Icon from "@mui/icons-material/Person2";
 import { Link, useNavigate } from "react-router-dom";
 function Signup() {
   const [email, setEmail] = useState("");
@@ -41,11 +41,8 @@ function Signup() {
           alt="signuplogo"
         ></img>
       </div>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmL_db62k8JH_uZuQi3IWja7VdudVSJAf6fIC7bPadex8GmodDpBFO7MLHpquflN_KS0o&usqp=CAU"
-        alt="userimg"
-        className="UserIcons"
-      />
+      <Person2Icon className="UserIcons" />
+
       <h2 className="Signins"> Sign In</h2>
       <div className="signinline"></div>
       <form className="form-sign" onSubmit={handleSubmit}>
